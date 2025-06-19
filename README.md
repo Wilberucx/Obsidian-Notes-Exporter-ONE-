@@ -9,6 +9,8 @@ Una suite de exportación unificada y fácil de usar, diseñada para convertir t
 -   ✅ **Instalación en 2 Minutos:** Olvídate de Python y dependencias. Descarga, ejecuta el setup y listo.
 -   ✅ **Control Total desde YAML:** Define el título, autor, modo y formatos de salida en el `frontmatter` de tu nota.
 -   ✅ **Integración Perfecta con Obsidian:** Lanza exportaciones con un clic derecho o un icono en la barra lateral.
+-   ✅ **Exportación a PDF Profesional:** Generación de PDF de alta calidad, **completamente probada y funcional**, con maquetación de libro (título, índice y capítulos en páginas separadas).
+-   🧪 **Soporte Experimental para DOCX y EPUB:** La exportación a `.docx` y `.epub` está implementada con plantillas básicas. La funcionalidad principal existe, pero estos formatos **no han sido probados exhaustivamente** y se consideran en desarrollo. ¡El feedback y los informes de bugs son bienvenidos!
 -   ✅ **Dos Modos de Exportación:** Usa el **Modo Manual** para un control absoluto o el **Modo Automático** para exploraciones rápidas.
 -   ✅ **Maquetación Profesional:** Genera automáticamente saltos de página para una estructura de libro limpia.
 
