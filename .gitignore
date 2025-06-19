@@ -1,0 +1,16 @@
+# Archivos de cache de Python
+__pycache__/
+*.pyc
+
+# Archivos generados por el sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos y carpetas generados por el proyecto
+config.json
+dist/
+build/
+*.spec
+
+# Entorno virtual de Python
+.venv/

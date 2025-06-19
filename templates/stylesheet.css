@@ -1,0 +1,79 @@
+/*
+ * ONE (Obsidian Notes Exporter) - Hoja de Estilos por Defecto para EPUB
+ * Este archivo controla la apariencia de los EPUBs generados.
+ * Puedes editarlo para cambiar fuentes, colores, espaciado, etc.
+*/
+
+/* Cuerpo principal del texto */
+body {
+    font-family: "Georgia", "Times New Roman", serif; /* Fuente clásica y legible */
+    line-height: 1.6;
+    margin: 5%; /* Márgenes cómodos */
+    text-align: justify; /* Texto justificado para una apariencia de libro */
+}
+
+/* Encabezados de Capítulo (H1) */
+h1 {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    text-align: left;
+    page-break-before: always; /* Cada capítulo empieza en una nueva página */
+}
+
+/* Encabezados de Sección (H2) */
+h2 {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-weight: bold;
+    font-size: 1.6em;
+    margin-top: 1.5em;
+    margin-bottom: 0.8em;
+    text-align: left;
+}
+
+/* Encabezados de Sub-sección (H3) */
+h3 {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-style: italic;
+    font-size: 1.3em;
+    margin-top: 1.2em;
+    margin-bottom: 0.6em;
+    text-align: left;
+}
+
+/* Párrafos */
+p {
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+/* Listas */
+ul, ol {
+    padding-left: 1.5em;
+}
+
+/* Imágenes */
+img {
+    max-width: 100%; /* Asegura que las imágenes no se salgan de la página */
+    display: block;
+    margin: 1.5em auto; /* Centrar imágenes */
+    height: auto;
+}
+
+/* Citas en bloque */
+blockquote {
+    font-style: italic;
+    margin-left: 2em;
+    margin-right: 2em;
+    color: #555;
+}
+
+/* Código en línea */
+code {
+    font-family: "Courier New", "Lucida Console", monospace;
+    background-color: #f0f0f0;
+    padding: 2px 4px;
+    border-radius: 3px;
+}
