@@ -19,7 +19,7 @@ Una suite de exportación unificada y fácil de usar, diseñada para convertir t
 Instalar ONE es un proceso de 3 pasos que no te tomará más de dos minutos.
 
 #### Paso 1: Descargar la Herramienta
--   Ve a la [**página de Releases**](https://github.com/TU_USUARIO/TU_REPOSITORIO/releases) de este repositorio.
+-   Ve a la [**página de Releases**](https://github.com/Wilberucx/Obsidian-Notes-Exporter-ONE-/releases) de este repositorio.
 -   Descarga el archivo `.zip` de la última versión.
 
 #### Paso 2: Ejecutar la Configuración
@@ -110,21 +110,9 @@ Construye el documento explorando los enlaces de tus notas automáticamente, bas
 
 
 El nivel de exportación es la profundidad hasta donde el script sigue los enlaces salientes desde tu nota de inicio.
-![niveles de exportación](".\readme-images\Niveles de exportación de ONE.png")
 Estructura de Ejemplo:
+![niveles de exportación](https://github.com/Wilberucx/Obsidian-Notes-Exporter-ONE-/blob/main/readme-images/Niveles%20de%20exportaci%C3%B3n%20de%20ONE.png)
 
-
-```mermaid
-graph TD
-    A[Nota de Inicio] --> B[Nota A] & C[Nota B];
-    B --> D[Nota C] & E[Nota D];
-    C --> F[Nota E];
-    E --> G[Nota F];
-    classDef nivel0 fill:#ffefc3; class A nivel0;
-    classDef nivel1 fill:#d0e6ff; class B,C nivel1;
-    classDef nivel2 fill:#e8ffd4; class D,E,F nivel2;
-    classDef nivel3 fill:#f9d3e7; class G nivel3;
-```
 
 export_depth: 0 (Solo Nota Inicial): Exporta exclusivamente la nota seleccionada. Ideal para notas autocontenidas como resúmenes o entradas de diario.
 
