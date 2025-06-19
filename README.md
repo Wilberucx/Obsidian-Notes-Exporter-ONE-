@@ -62,9 +62,9 @@ export_mode: manual
 export_depth: 1 
 
 # Formatos de Salida: una lista con los formatos deseados.
-# Opciones: pdf, docx, epub, md
+# Opciones: pdf (probado), docx (experimental), epub (experimental), md.
 # ('md' solo construye el paquete sin convertir)
-export_formats: [pdf, docx]
+export_formats: [pdf]
 
 # --- Metadatos del Documento Final ---
 export_title: "Mi Manuscrito Final"
